@@ -1,5 +1,7 @@
 from tkinter import *
 import random
+# імпортує модуль для змішування і добування кольру
+import tkinter.colorchooser
 
 tk = Tk()
 canvas = Canvas(tk, width=700, height=700)
@@ -20,5 +22,5 @@ for x in range(0, 100):
 
 Tk.mainloop(canvas)
 
-
-print('%02x' % 15)
+# вибір кольору
+color_ask = tkinter.colorchooser.askcolor()
