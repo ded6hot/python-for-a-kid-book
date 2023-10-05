@@ -21,6 +21,7 @@ for x in range(0, 100):
 Tk.mainloop(canvas)
 
 print(abs(-1000))
+a = 1000
 
 
 
